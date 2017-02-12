@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="drawTest">
+        <in>main.c</in>
+      </df>
+      <df name="include">
+        <in>SDL2_framerate.c</in>
+        <in>SDL2_gfxPrimitives.c</in>
+        <in>SDL2_imageFilter.c</in>
+        <in>SDL2_rotozoom.c</in>
+      </df>
+      <in>Camera.c</in>
+      <in>Camera.h</in>
+      <in>SDL2_framerate.c</in>
+      <in>SDL2_gfxPrimitives.c</in>
+      <in>SDL2_imageFilter.c</in>
+      <in>SDL2_rotozoom.c</in>
+      <in>Structures.h</in>
+      <in>main.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>make</buildCommand>
+          <cleanCommand>make clean</cleanCommand>
+          <executablePath>sdl3d</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>/usr/include/SDL2</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="Camera.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SDL2_framerate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SDL2_gfxPrimitives.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="SDL2_imageFilter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SDL2_rotozoom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Structures.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="drawTest/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <folder path="0/include">
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="include/SDL2_framerate.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="include/SDL2_gfxPrimitives.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="include/SDL2_imageFilter.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="include/SDL2_rotozoom.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="2">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
